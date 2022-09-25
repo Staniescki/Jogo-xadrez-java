@@ -1,5 +1,6 @@
 package application;
 
+import boardgame.Board;
 import boardgame.Position;
 
 public class Main {
@@ -8,9 +9,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		
 		
-		Position po = new Position(10, 20);
-		System.out.println(po);
-
+		Board board = new Board(8,8);
 	}
 
 }
